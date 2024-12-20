@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>EventSphere</h1>
+        <nav>
+            <a href="#events">Events</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Discover the Best Events in Grenada</h2>
+            <p>Book tickets for concerts, tours, and festivals.</p>
+            <button onclick="alert('Feature Coming Soon!')">Explore Events</button>
+        </section>
+        <section id="events">
+            <h2>Featured Events</h2>
+            <div class="event">
+                <h3>Beach Party Extravaganza</h3>
+                <p>Location: Grand Anse Beach</p>
+                <p>Date: January 15, 2025</p>
+                <button>Buy Tickets</button>
+            </div>
+            <div class="event">
+                <h3>Cultural Night</h3>
+                <p>Location: St. George's</p>
+                <p>Date: February 10, 2025</p>
+                <button>Buy Tickets</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>EventSphere connects you to the most exciting events in Grenada.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EventSphere. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
